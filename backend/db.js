@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://23bcs017_db_user:CU3zIbTSYxdWjsNQ@cluster0.ozlcql4.mongodb.net/PayTmApp')
+mongoose.connect('your_database_uri')
 const UserSchema=new mongoose.Schema({
     username:String,
     password:String,
